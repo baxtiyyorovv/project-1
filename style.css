@@ -1,0 +1,263 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f8fb;
+    color: #333;
+}
+
+/* Header and navigation */
+header {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main content section */
+.container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 1000px;
+    margin-top: 30px;
+}
+
+/* Left content */
+.text-section {
+    flex: 1;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.text-section .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-section .button:hover {
+    background-color: #0056b3;
+}
+
+/* Right content (image or illustration) */
+.illustration {
+    flex: 1;
+    text-align: center;
+}
+
+.illustration img {
+    width: 100%;
+    max-width: 400px;
+}
+/* Our Services Section */
+.services {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.services p {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Service Grid */
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Service Cards */
+.service-card {
+    padding: 20px;
+    background-color: #f0f3f7;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.service-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    background-color: #e3e8f0;
+}
+
+/* Highlighted Card */
+.service-card.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.service-card.active p {
+    color: #e0e7ff;
+}
+
+/* Learn More Button */
+.learn-more {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.learn-more:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.info-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.info-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 60px;
+}
+
+.info-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.info-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-text p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.learn-more {
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.articles-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.articles-section h2 {
+    margin-bottom: 20px;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.article-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.article-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.article-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
